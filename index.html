@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 
 <html>
-<title>W3.CSS Wedding Template</title>
+<title>Luis and Razel's Wedding</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/6/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+
 
 <style>
-body,h1,h2 {font-family:"Raleway",sans-serif,background-color: orange}
+body,h1,h2,h3 {font-family:"Sofia",sans-serif}
+p,h4,h6,h7 {font-family:"Trirong",sans-serif}
 body,html {height:100%}
 p {line-height:2}
 
@@ -19,25 +27,26 @@ p {line-height:2}
 
 .bgimg {background-image:url("./together image.jpg")}
 .bgimg2 {background-image:url("./flowers.jpg")}
+
 </style>
 
 <body>
 
 <!-- Header / Home -->
+<img src="./together image.jpg" style="width:100%;margin:32px 0">
 
-<header class="w3-display-container w3-wide bgimg w3-grayscale" id="home">
+<header class="w3-wide">
   <div class="w3-display-middle w3-text-white w3-center">
-    <h1 class="w3-jumbo">Luis & Razel</h1>
-    <h2>Are getting married</h2>
-    <h2><b>01.03.2027</b></h2>
+    <h1>Luis John <br> & <br> Razel <br></h1>
   </div>
 </header>
 
 <!-- Navbar -->
 
+ 
 <nav class="w3-flex w3-bottom w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off w3-hide-small">
   <a href="#home" class="w3-button" style="flex:1">Home</a>
-  <a href="#us" class="w3-button" style="flex:1">Luis & Razel</a>
+  <a href="#us" class="w3-button" style="flex:1">Luis John & Razel</a>
   <a href="#wedding" class="w3-button" style="flex:1">Wedding</a>
   <a href="#rsvp" class="w3-button w3-hover-black" style="flex:1">RSVP</a>
 </nav>
@@ -45,39 +54,35 @@ p {line-height:2}
 <!-- About / Luis & Razel -->
 
 <section class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
-  <div class="w3-content">
-    <h1 class="w3-center w3-text-grey"><b>Luis & Razel</b></h1>
-
-```
-<img class="w3-round "
-src="./ring.jpg"
-alt="Luis & Razel"
-style="width:100%;margin:32px 0">
+  <div class="w3-content w3-center" >
+    <h1 class="w3-center w3-text-grey w3-jumbo"><b>ARE GETTING MARRIED</b></h1> 
+    <br>
+    <h2 class="w3-center w3-text-grey"><b>JOIN US AS WE SAY "I DO" </b></h2>
+    <br><br>
 
 
-<p class="w3-center">
-  <a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Wedding Details</a>
-</p>
-```
+
+<h4 class="w3-text-grey" class="w3-center"><b>We look forward to sharing this moment with you!</b></h4>
+
+<br>
+<p class="w3-text-grey" class="w3-center">Scroll to explore</p>
+
+
+
 
   </div>
 </section>
 
 <!-- Background Photo -->
 
-<div class="w3-display-container bgimg2 ">
-  <div class="w3-display-middle w3-text-white w3-center w3-text-bold" background-color: white>
-    <h1 class="w3-jumbo">You Are Invited</h1>
-  </div>
-</div>
 
 <!-- Wedding Information -->
 
 <section class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="wedding">
   <div class="w3-content">
 
-```
-<h1 class="w3-text-grey"><b>THE WEDDING</b></h1>
+
+<h1 class="w3-text-grey" {font-family:"Trirong"}><b>HERE'S EVERYTHING YOU NEED TO KNOW...</b></h1>
 
 <img class="w3-round-large"
 src="./location.png"
@@ -87,23 +92,21 @@ style="width:100%;margin:64px 0">
 <div class="w3-grid"
 style="grid-template-columns:repeat(auto-fit,minmax(250px,1fr))">
 
-  <div>
-    <h2>When</h2>
-    <p>Wedding Ceremony - 4:00pm</p>
-    <p>Reception & Dinner - 5:00pm</p>
-  </div>
+
 
   <div>
-    <h2>Where</h2>
-    <p>RODOLFO’S GARDEN EVENTS PLACE & FUNCTIONS</p>
-    <p>Scan the QR Code to view on map</p>
+    <h3><B>THE VENUE</B></h3>
     <img src="./QR.png"
-alt="Luis & Razel"
-style="width:40%;margin:32px 0">
+    alt="Luis & Razel"
+    style="width:40%;margin:32px 0"><BR>
+    <h7>SCAN THE QR CODE OR CLICK THIS LINK: LINK</h7>
+    <h3><B>RODOLFO'S GARDEN EVENTS PLACE & FUNCTIONS</B> </h3>
+    <h4>(WEDDING CEREMONY & RECEPTION) </h4>
+    <h4><B>4PM | JANUARY 03, 2027 | SUNDAY</B> </h4>
   </div>
 
 </div>
-```
+
 
   </div>
 </section>
@@ -112,16 +115,128 @@ style="width:40%;margin:32px 0">
 
 <section class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
   <h1>HOPE YOU CAN MAKE IT!</h1>
-  <p class="w3-large">Kindly Respond By December 7, 2026</p>
+  <p class="w3-large">PLEASE COMPLETE THE RSVP BY DECEMBER 07, 2027</p>
 
   <p class="w3-xlarge">
-    <button
-    onclick="document.getElementById('id01').style.display='block'"
-    class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off"
-    style="padding:8px 60px">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdl3wiWIS1CIvbXIa8Ou1X-yj445gB6jAbIqoKWDDMMgOEhNw/viewform?usp=publish-editor">
+    <button>
     RSVP
     </button>
+    </a>
   </p>
+
+  <p>YOUR RSVP IS VERY IMPORTANT TO US.
+    KINDLY CONFIRM YOUR ATTENDANCE BY THE REQUESTED DATE, AS THIS WILL HELP US FINALIZE OUR GUEST COUNT FOR THE MEALS AND ENSURE THAT EVERYONE HAS A COMFORTABLE SEAT. WE APPRECIATE YOUR TIMELY RESPONSE AND CAN'T WAIT TO CELEBRATE THIS SPECIAL DAY WITH YOU!
+  </p>
+
+</section>
+
+<section class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="wedding">
+  <div class="w3-content">
+
+
+<h1 class="w3-text-grey"><b>BLOOM IN STYLE!</b></h1>
+
+<p>DRESS COMFORTABLY AND LET YOUR STYLE BLOOM IN <B>FORMAL</B> OR <b>CASUAL CHIC</b> ATTIRE WITH A <b>BOLD SPRING VIBE</b>.</p>
+<p>FEEL FREE TO DRAW INSPIRATION FROM OUR WEDDING COLOR PALETTE WHEN CHOOSING</p>
+
+<div class="w3-grid"
+style="grid-template-columns:repeat(auto-fit,minmax(250px,1fr))">
+
+  <div>
+    <div>
+    <h2>Ladies</h2>
+    <p>MIDI OR MAXI DRESSES</p>
+    <p>FLORAL PRINTS</p>
+    <p>RUFFLES</p>
+    <p>LACE</p>
+    <p>FLOWY SILHOUETTES</p>
+    <p>TEXTURED FABRICS</p>
+    </div>
+  </div>
+
+  <div>
+    </div>
+    <h2>Gentlemen</h2>
+    <p>
+      BUTTON-DOWN SHIRTS<br>
+      POLOS <br>
+      LINEN SHIRTS <br>
+      CHINOS <br>
+      DRESS PANTS
+    </p>
+    </div>
+  </div>
+
+   <div>
+   <h2>Colors</h2>
+   <p>
+    <img src="./pink.png" style="width:19%;margin:32px 0">
+    <img src="./blue.png" style="width:19%;margin:32px 0">
+    <img src="./lilac.png" style="width:19%;margin:32px 0">
+    <img src="./yellow.png" style="width:19%;margin:32px 0">
+    <img src="./green.png" style="width:19%;margin:32px 0">
+   </p>
+ </div>
+
+</div>
+  </div>
+</section>
+
+
+<section class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="wedding">
+  <div class="w3-content">
+
+
+<h1 class="w3-text-grey"><b>FAQs</b></h1>
+
+
+<div class="w3-grid"
+style="grid-template-columns:repeat(auto-fit,minmax(250px,1fr))">
+
+  <div>
+    <h2>PARKING INFORMATION</h2>
+    <p>GOOD NEWS! Our venue offers ample parking space for our guests, so you can arrive with peace of mind and enjoy the celebration without worrying about where to park.</p>
+  </div>
+
+  <div>
+    <h2>ADULTS-ONLY CELEBRATION</h2>
+    <p>While we love your little ones, we have decided to make our wedding an adults-only celebration. We hope this advance notice gives you enough time to make the necessary arrangements so you can still join us on our special day!</p>
+  </div>
+
+  <div>
+    <h2>A NOTE ON OUR GUEST LIST</h2>
+    <p>
+      Due to the limited capacity of our venue, we kindly ask that only guests named on the invitation attend. We appreciate your understanding and cooperation in helping us keep our celebration intimate and meaningful.
+    </p>
+  </div>
+  
+  <div>
+    <h2>DID YOU SAY “YES” BUT HAVE A CHANGE OF PLANS?</h2>
+    <p>
+      We would truly love to celebrate with you, but we understand that unexpected circumstances can arise. If you’re unable to attend, please let us know as soon as possible so we can thoughtfully reallocate your reserved seats.
+    </p>
+  </div>
+  
+  <div>
+    <h2>DID YOU SAY “NO” BUT CAN NOW ATTEND?</h2>
+    <p>
+      We’re so happy you’re considering joining us after all! Please let us know as soon as possible so we can check whether seats are still available. If a seat opens up, we’ll let you know right away.
+    </p>
+    <p>
+      Kindly note that we may not be able to guarantee the same number of seats—or any seats at all—as some may have already been reassigned. Nevertheless, we truly hope to celebrate this special day with you!
+    </p>
+  </div>
+
+  <div>
+    <h2>WHAT SHOULD WE DO UPON ARRIVING AT THE RECEPTION VENUE?</h2>
+    <p>
+      Snacks and refreshments will be available while you wait for the celebration to begin. Feel free to register, catch up with family and friends, find your assigned seat, and enjoy the photobooth while you wait. We hope you have a wonderful time even before the festivities officially begin!
+    </p>
+  </div>
+
+</div>
+  </div>
 </section>
 
 <!-- RSVP Modal -->
@@ -130,7 +245,7 @@ style="width:40%;margin:32px 0">
   <div class="w3-modal-content w3-card-4 w3-animate-zoom"
   style="padding:32px;max-width:600px">
 
-```
+
 <div class="w3-container w3-white w3-center">
 
   <h1 class="w3-wide">CAN YOU COME?</h1>
@@ -167,7 +282,7 @@ style="width:40%;margin:32px 0">
   </div>
 
 </div>
-```
+
 
   </div>
 </div>
